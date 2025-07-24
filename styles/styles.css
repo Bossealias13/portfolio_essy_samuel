@@ -1,18 +1,117 @@
-
-/* annuler les marges et rambourrage pas defaut */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+:root {
+  --orange-vif: #cb3b09;
+  --blanc: #ffffff;
 }
-/* definir la police par defaut de toutes la page*/
+/* styles sur toutes la page */
 body {
-    font-family:"Roboto";
-    padding: 30px 50px 50px 30px;
-    gap: 25px;
+  font-family:"Roboto";
+  background-color: #eceada;
 }
+
+/* styles de  header */  
+/* styles sur toute la section header */  
 .header_section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 45px 25px 45px;
+  color: var(--orange-vif);
+}
+/* styles du paragraphe de header */
+.paragrah_header {
+  font-weight: bolder;
+  font-size: 0.9rem;
+  color: var(--orange-vif);
+  text-decoration: underline;
+}
+/* styles de la barre de navigation */
+.bar_navigation_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+.bar_navigation_header a {
+  text-decoration: none;
+  color: #ffffff;
+  border: 2px solid var(--orange-vif);
+  padding: 10px;
+  background-color: #cb3b09;
+}
+.bar_navigation_header a:hover, a:active {
+  background-color: #ffffff;
+  color: var(--orange-vif);
+  transition: all 0.3s ease
+}
+
+/* styles de main */
+/* styles sur toute la section menu */
+.menu_section {
+  padding: 25px 45px 25px 45px;
+}
+/* styles sur toutes la section hero du menu */
+.menu_section--section_hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+/* styles sur l image de la section hero */
+.menu_section_image--hero {
+  width: 45%;
+  height: 40%;
+}
+/* styles des titre et paragraphe de la section hero */
+h1 {
+  color: var(--orange-vif);
+  font-size: 50px;
+}
+h2 {
+  color: var(--orange-vif);
+}
+p {
+  color: #6e0f2d;
+}
+/* styles du call to action de la section main */
+.menu_section--call_to_action {
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  gap: 50px;
+  padding: 30px 0  25px 50px;
+}
+.menu_section--call_to_action a {
+  text-decoration: none;
+  color: var(--orange-vif);
+  border: 2px solid var(--orange-vif);
+  padding: 10px;
+  background-color: var(--blanc);
+  border-radius: 50px;
+}
+.menu_section--call_to_action a:hover, a:active {
+  color: var(--blanc);
+  background-color: var(--orange-vif);
+}
+
+
+/* styles du footer */
+/* styles sur les icones contacts footer */
+.footer--contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.icones_footer {
+  width: 30px;
+  height: 30px;
+}
+/* styles sur le paragraphe du footer ( copyrigth ) */
+.footer--copyrith {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 0 20px 0;
+  font-size: 60%;
 }
