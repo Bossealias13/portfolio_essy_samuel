@@ -1,6 +1,11 @@
 :root {
   --orange-vif: #cb3b09;
   --blanc: #ffffff;
+  --pourpre-foncé: #6e0f2d;
+}
+* {
+  padding: 0;
+  margin: 0;
 }
 /* styles sur toutes la page */
 body {
@@ -14,7 +19,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 45px 25px 45px;
+  padding: 40px 45px 40px 45px; 
   color: var(--orange-vif);
 }
 /* styles du paragraphe de header */
@@ -71,7 +76,7 @@ h2 {
   color: var(--orange-vif);
 }
 p {
-  color: #6e0f2d;
+  color: var(--pourpre-foncé);
 }
 /* styles du call to action de la section main */
 .menu_section--call_to_action {

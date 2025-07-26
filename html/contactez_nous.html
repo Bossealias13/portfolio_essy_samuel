@@ -12,7 +12,7 @@
     </style>
 
     <link rel="shortcut icon" href="../images/icon_favicon/icon_favicon_graphique_designer2.svg" type="image/svp">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../styles/contactez_nous.css">
 
  <!-- meta og -->
     <meta property="og:title" content="Contactez-nous | Portfolio Essy Samuel graphiste-infographiste">
@@ -25,10 +25,10 @@
 
 <body>
  <!-- section header -->
-    <header>
-        <p>essy samuel</p>
-        <nav class="header_bar_navigation">
-            <ul type="square">
+    <header class="header_section">
+        <p class="paragrah_header">essy samuel</p>
+        <nav>
+            <ul type="square" class="bar_navigation_header">
                 <li><a href="../index.html">Accueil</a></li>
                 <li><a href="./projets.html">Projets</a></li>
                 <li><a href="./a_propos.html">A propos</a></li>
@@ -36,52 +36,50 @@
             </ul>
         </nav> 
     </header>
+
  <!-- section main -->
-    <main>
+    <main class="menu_section">
         <h1>contacts</h1>
-        <p>Besoin d&apos;un graphiste-infographiste visuel, d&apos;un visuel, d&apos;une identité graphique, d&apos;un logo ou pour un projet, veuillez remplir le formulaire</p>
+        <p class="paragraph">
+            commencons dès maintenant 
+        </p> 
         <form action="" method="post">
-            <ul>
-                <li>
-                    <label for="name">Votre Nom</label>  
-                    <input type="text" id="name" name="name" required placeholder="Entrez votre nom">
-                </li>
-                <li>
-                    <label for="email">Votre Email</label>
-                    <input type="email" id="email" name="email" required placeholder="Entrez votre email">
-                </li>
-                <li>
-                    <label for="Votre Message" id="Votre Message"></label>
-                    <textarea name="Votre Message" id="Votre Message" placeholder="Votre Messages" required rows="5" cols="45"></textarea>
-                </li>
-                <li>
-                    <button type="submit">envoyer le message</button>
-                </li>
-            </ul>
+            <div>
+                <p>Laissez moi un Message</p>
+            </div>
+            <div>
+                <label for="name">Votre Nom</label>  
+                <input type="text" id="name" name="name" required placeholder="Entrez votre nom">
+            </div>
+            <div>
+                <label for="email">Votre Email</label>
+                <input type="email" id="email" name="email" required placeholder="Entrez votre email">
+            </div>
+            <div>
+                <label for="Votre Message" id="Votre Message"></label>
+                <textarea name="Votre Message" id="Votre Message" placeholder="Votre Messages" required rows="5" cols="45"></textarea>
+            </div>
+            <div>
+                <input type="submit">
+            </div>
         </form>
-        <p>vous pouvez aussi me contacter <br> 
-         par appel/watsapp au <a href="https://wa.me/2250142210077" title="lien vers mon watsapp">+2250142210077</a><br>
-         ou via mail à l&apos;adresse <a href="mailto:uguesessy@gmail.com" title="lien vers mon mail">uguesessy@gmail.com</a><br>
-         je suis disponible pour discuter de vos besoins et de vos projets pour concevoir des univers visuels uniques.
-        </p>
+        <div class="paragraph_contacts">
+            <p>vous pouvez aussi me contacter </p>
+            <p>par appel/watsapp au <a href="https://wa.me/2250142210077" title="lien vers mon watsapp">+2250142210077</a></p>
+            <p>via mail à l&apos;adresse <a href="mailto:uguesessy@gmail.com" title="lien vers mon mail">uguesessy@gmail.com</a></p>
+            <p>je suis disponible pour discuter de vos besoins et de vos projets pour concevoir des univers visuels uniques.</p>
+        </div>
     </main> 
+
  <!-- section footer -->
     <footer>
-        <nav>
-            <ul>
-                <a href="tel:+2250142210077" target="_blank"><img src="../images/icones_footer/icon_footer_appel.svg" alt="icone d&apos;appel"></a>
-            </ul>
-            <ul>
-                <a href="mailto:uguesessy@gmail.com" target="_blank"><img src="../images/icones_footer/icone_footer_mail.svg" alt="icone d&apos;email"></a>
-            </ul>
-            <ul>
-                <a href="https://www.facebook.com/share/16B76oUX1f/?mibextid=wwXIfr" target="_blank"><img src="../images/icones_footer/icon_footerfacebook.svg" alt="icone de facebook"></a>
-            </ul>
-            <ul>
-                <a href="https://wa.me/2250142210077" target="_blank"><img src="../images/icones_footer/icon_footer_whatsapp.svg" alt="icone de watsapp"></a>
-            </ul>
-        </nav>
-        <p>&copy; copyright 2025 Tous droits réservés.</p>
+        <div class="footer--contacts">
+            <a href="tel:+2250142210077" target="_blank"><img src="../images/icones_footer/icon_footer_appel.svg" alt="icone d&apos;appel" class="icones_footer"></a>
+            <a href="mailto:uguesessy@gmail.com" target="_blank"><img src="../images/icones_footer/icone_footer_mail.svg" alt="icone d&apos;email" class="icones_footer"></a>
+            <a href="https://www.facebook.com/share/16B76oUX1f/?mibextid=wwXIfr" target="_blank"><img src="../images/icones_footer/icon_footerfacebook.svg" alt="icone de facebook" class="icones_footer"></a>
+            <a href="https://wa.me/2250142210077" target="_blank"><img src="../images/icones_footer/icon_footer_whatsapp.svg" alt="icone de watsapp" class="icones_footer"></a>
+        </div>
+        <p class="footer--copyrith">&copy; copyright 2025 Tous droits réservés.</p>
     </footer>    
 </body>
 </html>
